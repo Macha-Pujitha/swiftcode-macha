@@ -4,3 +4,15 @@
     background-size: contain;
     background-position: center center
 }
+.message-card{
+    max-width : 75%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+.message-time{
+    margin-top : 4px;
+    float : right;
+    color : rgb(255, 255, 255);
+    font-size : 15px;
+}

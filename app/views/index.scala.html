@@ -9,8 +9,14 @@
       layout="row" layout-align="center stretch">
 <md-card flex="none" layout="column" style="max-width: 100%; width: 800px">
     <md-content id="message-pane" flex="90">
-        <div ng-repeat="message in messages" layout="column">
-        <span>{{message.text}}</span>
+        <div ng-repeat="message in messages" layout="column" layout-align="{{message.sender=='BOT' ? 'start start' : 'start end'}}">
+            <md-card class = "message-card"
+            ng-style="message.sender=='BOT' ?
+            {'background-color': '#a7e08f'}:
+            {'background-color': '#c07fc4'}">
+                <span>{{message.text}}</span>
+                <span class="message-time" >{{message.time}}</span>
+            </md-card>
         </div>
     </md-content>
     <md-card id="form-card" flex="10">
