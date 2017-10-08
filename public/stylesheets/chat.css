@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 #message-pane {
-    background: url(http://amfblog.s3.amazonaws.com/wp-content/uploads/2015/07/15105538/newsbot2.png);
+    background: url(https://m.popkey.co/03cbc3/g34pg.gif);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center
@@ -8,11 +9,17 @@
     max-width : 75%;
     border-radius: 10px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px 0px rgb(0,255,255);
 }
 .message-time{
     margin-top : 4px;
     float : right;
     color : rgb(255, 255, 255);
-    font-size : 15px;
+    font-size : 12px;
+}
+#form-card{
+margin: 0px;
 }
