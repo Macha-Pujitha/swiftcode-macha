@@ -1,7 +1,6 @@
 #message-pane {
-    background: url(https://tctechcrunch2011.files.wordpress.com/2016/05/robot-customer-service.png?w=738);
-    //http://amfblog.s3.amazonaws.com/wp-content/uploads/2015/07/15105538/newsbot2.png
+    background: url(http://amfblog.s3.amazonaws.com/wp-content/uploads/2015/07/15105538/newsbot2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center
 }
